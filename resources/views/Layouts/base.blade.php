@@ -16,15 +16,15 @@
     <meta name="twitter:title" content="@yield('page_title') | Evoton - Software & IT Solutions  ">
     <meta name="twitter:description"
         content="Evoton Software is one of the few IT system integration, professional service and software development companies in East Africa that works with Enterprise systems and companies. As a privately owned company, Evoton Software provides IT Consultancy, software design and development as well as professional services and hardware deployment and maintenance.">
-    <meta name="twitter:image" content="{{ asset('assets/img/logo_plain.png') }}">
+    <meta name="twitter:image" content="{{ asset('assets/img/evoto_logo_square.png') }}">
 
     <!--facebook og-->
     <meta property="og:url" content="/">
     <meta name="twitter:title" content="@yield('page_title') | Evoton - Software & IT Solutions  ">
     <meta property="og:description"
         content="Evoton Software is one of the few IT system integration, professional service and software development companies in East Africa that works with Enterprise systems and companies. As a privately owned company, Evoton Software provides IT Consultancy, software design and development as well as professional services and hardware deployment and maintenance.">
-    <meta property="og:image" content="{{ asset('assets/img/logo_plain.png') }}">
-    <meta property="og:image:secure_url" content="{{ asset('assets/img/logo_plain.png') }}">
+    <meta property="og:image" content="{{ asset('assets/img/evoto_logo_square.png') }}">
+    <meta property="og:image:secure_url" content="{{ asset('assets/img/evoto_logo_square.png') }}">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="600">
