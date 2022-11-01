@@ -10,30 +10,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--twitter og-->
-    <meta name="twitter:site" content="@themetags">
-    <meta name="twitter:creator" content="@themetags">
+    <meta name="twitter:site" content="@evoton">
+    <meta name="twitter:creator" content="@evoton">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Evoton - Creative SAAS Technology & IT Solutions  ">
+    <meta name="twitter:title" content="@yield('page_title') | Evoton - Software & IT Solutions  ">
     <meta name="twitter:description"
-        content="Evoton creative Saas, software technology, Saas agency & business  . It is best and famous software company and Saas website template.">
-    <meta name="twitter:image" content="#">
+        content="Evoton Software is one of the few IT system integration, professional service and software development companies in East Africa that works with Enterprise systems and companies. As a privately owned company, Evoton Software provides IT Consultancy, software design and development as well as professional services and hardware deployment and maintenance.">
+    <meta name="twitter:image" content="{{ asset('assets/img/evoton_logo1.webp') }}">
 
     <!--facebook og-->
-    <meta property="og:url" content="#">
-    <meta name="twitter:title" content="Evoton - Creative SAAS Technology & IT Solutions  ">
+    <meta property="og:url" content="/">
+    <meta name="twitter:title" content="@yield('page_title') | Evoton - Software & IT Solutions  ">
     <meta property="og:description"
-        content="Evoton creative Saas, software technology, Saas agency & business  . It is best and famous software company and Saas website template.">
-    <meta property="og:image" content="#">
-    <meta property="og:image:secure_url" content="#">
+        content="Evoton Software is one of the few IT system integration, professional service and software development companies in East Africa that works with Enterprise systems and companies. As a privately owned company, Evoton Software provides IT Consultancy, software design and development as well as professional services and hardware deployment and maintenance.">
+    <meta property="og:image" content="{{ asset('assets/img/evoton_logo1.webp') }}">
+    <meta property="og:image:secure_url" content="{{ asset('assets/img/evoton_logo1.webp') }}">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="600">
 
     <!--meta-->
     <meta name="description"
-        content="Evoton creative Saas, software technology, Saas agency & business  . It is best and famous software company and Saas website template.">
-    <meta name="author" content="ThemeTags">
-
+        content="Evoton Software is one of the few IT system integration, professional service and software development companies in East Africa that works with Enterprise systems and companies. As a privately owned company, Evoton Software provides IT Consultancy, software design and development as well as professional services and hardware deployment and maintenance.">
+    <meta name="author" content="Evoton">
+    <meta name="keywords" content="Evoton, Softwares, Kenya, Tanzania, Software Developers, Web developers, Application Developers, Apps, Android apps, ">
     <!--favicon icon-->
     <link rel="icon" href="{{ asset('assets/img/evoton_logo1.webp') }}" type="image/png" sizes="16x16">
 
@@ -1049,7 +1049,7 @@
                         <div class="col-md-7 col-lg-7">
                             <div class="copyright-text">
                                 <p class="mb-lg-0 mb-md-0">&copy; {{ now()->year }} Evoton Rights Reserved. Designed By <a
-                                        href="https://themetags.com/" class="text-decoration-none">Evoton</a></p>
+                                        href="https://evoton.co.ke/" class="text-decoration-none">Evoton</a></p>
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-4">
@@ -1089,7 +1089,5 @@
     <!--endbuild-->
 </body>
 
-
-<!-- Mirrored from Evoton.themetags.com/index-6.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Oct 2022 06:47:02 GMT -->
 
 </html>
