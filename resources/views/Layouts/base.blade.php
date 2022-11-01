@@ -5,6 +5,21 @@
 <!-- Mirrored from Evoton.themetags.com/index-6.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Oct 2022 06:46:14 GMT -->
 
 <head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167933131-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-167933131-2');
+    </script>
+
+
     <!--required meta tags-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,7 +48,8 @@
     <meta name="description"
         content="Evoton Software is one of the few IT system integration, professional service and software development companies in East Africa that works with Enterprise systems and companies. As a privately owned company, Evoton Software provides IT Consultancy, software design and development as well as professional services and hardware deployment and maintenance.">
     <meta name="author" content="Evoton">
-    <meta name="keywords" content="Evoton, Softwares, Kenya, Tanzania, Software Developers, Web developers, Application Developers, Apps, Android apps, ">
+    <meta name="keywords"
+        content="Evoton, Softwares, Kenya, Tanzania, Software Developers, Web developers, Application Developers, Apps, Android apps, ">
     <!--favicon icon-->
     <link rel="icon" href="{{ asset('assets/img/evoton_logo1.webp') }}" type="image/png" sizes="16x16">
 
@@ -85,7 +101,7 @@
                     <div class="collapse navbar-collapse justify-content-center">
                         <ul class="nav col-12 col-md-auto justify-content-center main-menu">
                             <li><a href="{{ Route('home') }}" class="nav-link">Home</a></li>
-                            <li><a href="{{Route('services')}}" class="nav-link">Services</a></li>
+                            <li><a href="{{ Route('services') }}" class="nav-link">Services</a></li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
@@ -201,7 +217,7 @@
                             </li> --}}
                             {{-- <li><a href="pricing.html" class="nav-link">Blog</a></li>
                             <li><a href="pricing.html" class="nav-link">Portfolio</a></li> --}}
-                            <li><a href="{{Route('contact')}}" class="nav-link">Contact Us</a></li>
+                            <li><a href="{{ Route('contact') }}" class="nav-link">Contact Us</a></li>
                             {{-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">Company</a>
@@ -243,7 +259,7 @@
                         </ul>
                     </div>
                     <div class="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
-                        <a href="{{Route('contact')}}" class="btn btn-primary">Get In Touch</a>
+                        <a href="{{ Route('contact') }}" class="btn btn-primary">Get In Touch</a>
                     </div>
 
                 </div>
@@ -395,7 +411,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li><a href="{{Route('services')}}" class="nav-link">Services</a></li>
+                        <li><a href="{{ Route('services') }}" class="nav-link">Services</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
@@ -735,7 +751,12 @@
                                             </div>
                                             <blockquote>
                                                 <h6>The best Web Developers!</h6>
-                                                I am really impressed by the quality of services I received from  Evoton  Softwares. You were right on schedule, charged reasonable prices, were professional and courteous in dealings, and delivered items well before time. I have got a good e-commerce site for my products. My revenue has increased because of  Evoton and I will definitely use your services again.
+                                                I am really impressed by the quality of services I received from Evoton
+                                                Softwares. You were right on schedule, charged reasonable prices, were
+                                                professional and courteous in dealings, and delivered items well before
+                                                time. I have got a good e-commerce site for my products. My revenue has
+                                                increased because of Evoton and I will definitely use your services
+                                                again.
                                             </blockquote>
                                             <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
                                                 <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
@@ -769,7 +790,10 @@
                                             </div>
                                             <blockquote>
                                                 <h6>Satisfied by the First Version.</h6>
-                                                We would like to express our satisfaction on the cooperation regarding the development of our web application. Devaiah and the development team did a very professional job. We are satisfied with the solution given to us and with the communication flow through the project.
+                                                We would like to express our satisfaction on the cooperation regarding
+                                                the development of our web application. Devaiah and the development team
+                                                did a very professional job. We are satisfied with the solution given to
+                                                us and with the communication flow through the project.
                                             </blockquote>
                                             <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
                                                 <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
@@ -804,7 +828,11 @@
                                             </div>
                                             <blockquote>
                                                 <h6>Professional and Timely</h6>
-                                                I wanted to take a moment to thank you for the services your team has provided. Your team has been a pleasure to work with, professional and timely. The only delay in work that we have experienced has been due to our own lack of organization managing our projects, not yours. Job well done and I hope we can continue to grow together.
+                                                I wanted to take a moment to thank you for the services your team has
+                                                provided. Your team has been a pleasure to work with, professional and
+                                                timely. The only delay in work that we have experienced has been due to
+                                                our own lack of organization managing our projects, not yours. Job well
+                                                done and I hope we can continue to grow together.
                                             </blockquote>
                                             <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
                                                 <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
@@ -838,7 +866,10 @@
                                             </div>
                                             <blockquote>
                                                 <h6>Best ISP site!</h6>
-                                                Under tight deadlines and with high expectations,  Evoton  Softwares was a pleasure to partner with, on a high profile political campaign website. Professional, conscientious and thoroughly competent - I wouldn't hesitate in recommending them to other agencies.
+                                                Under tight deadlines and with high expectations, Evoton Softwares was a
+                                                pleasure to partner with, on a high profile political campaign website.
+                                                Professional, conscientious and thoroughly competent - I wouldn't
+                                                hesitate in recommending them to other agencies.
                                             </blockquote>
                                             <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
                                                 <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
@@ -873,7 +904,10 @@
                                             </div>
                                             <blockquote>
                                                 <h6>Top Notch News Site!</h6>
-                                                We have worked with  Evoton  Softwares on various projects, and find that they provide quality service and expertise for our programming needs. It is rare to find a service provider with such professional consistency - they are a valued service provider to our business!
+                                                We have worked with Evoton Softwares on various projects, and find that
+                                                they provide quality service and expertise for our programming needs. It
+                                                is rare to find a service provider with such professional consistency -
+                                                they are a valued service provider to our business!
                                             </blockquote>
                                             <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
                                                 <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
@@ -913,7 +947,8 @@
                             <div class="section-heading" data-aos="fade-up">
                                 <h4 class="h5 text-warning">Let's Try! Get Free Support</h4>
                                 <h2>Let’s choose the best technology for your business</h2>
-                                <p>We can help you to create your dream website and application for better business revenue.</p>
+                                <p>We can help you to create your dream website and application for better business
+                                    revenue.</p>
                             </div>
                             <div class="form-block-banner mw-60 m-auto mt-5" data-aos="fade-up" data-aos-delay="50">
                                 <a href="contact-us.html" class="btn btn-primary">Contact Us</a>
@@ -1048,8 +1083,8 @@
                     <div class="row justify-content-between align-items-center">
                         <div class="col-md-7 col-lg-7">
                             <div class="copyright-text">
-                                <p class="mb-lg-0 mb-md-0">&copy; {{ now()->year }} Evoton Rights Reserved. Designed By <a
-                                        href="https://evoton.co.ke/" class="text-decoration-none">Evoton</a></p>
+                                <p class="mb-lg-0 mb-md-0">&copy; {{ now()->year }} Evoton Rights Reserved. Designed
+                                    By <a href="https://evoton.co.ke/" class="text-decoration-none">Evoton</a></p>
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-4">
