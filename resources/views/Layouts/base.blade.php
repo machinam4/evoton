@@ -5,6 +5,20 @@
 <!-- Mirrored from Evoton.themetags.com/index-6.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Oct 2022 06:46:14 GMT -->
 
 <head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NN4M0TLBRV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-NN4M0TLBRV');
+    </script>
+
     <!--required meta tags-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
