@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from Evoton.themetags.com/index-6.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Oct 2022 06:46:14 GMT -->
-
 <head>
 
     <!-- Google tag (gtag.js) -->
@@ -541,9 +538,23 @@
     <script src="{{ asset('assets/js/vendors/aos.js') }}"></script>
     <script src="{{ asset('assets/js/app.js') }}"></script>
     <!--endbuild-->
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/64a58f8ccc26a871b0268d4e/1h4jbhga4';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
 </body>
 
-
-<!-- Mirrored from Evoton.themetags.com/index-6.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Oct 2022 06:47:02 GMT -->
 
 </html>
