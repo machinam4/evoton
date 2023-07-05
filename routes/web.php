@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ServicesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,9 +21,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 })->name('home');
-Route::get('/services', function () {
-    return view('services');
-})->name('services');
+Route::controller(ServicesController::class)->prefix('/services')->group(function () {
+    Route::get('/', 'index')->name('services');
+    Route::get('/websites', 'websites')->name('websites');
+    Route::get('/bulksms', 'bulksms')->name('bulksms');
+    Route::get('/hosting', 'hosting')->name('hosting');
+});
 Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
