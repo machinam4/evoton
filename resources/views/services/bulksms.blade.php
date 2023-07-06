@@ -1,5 +1,38 @@
 @extends('Layouts.base')
 @section('page_title', 'Bulk SMS EvoSMS')
+@section('page_description',
+    'Discover the Best Bulk SMS Services in Kenya | Evoton
+
+    Looking for reliable and affordable bulk SMS services in Kenya? Look no further! Evoton offers the best bulk SMS
+    solutions designed to meet your communication needs. Our robust SMS gateway platform and user-friendly API enable
+    seamless integration with your applications, websites, or mobile apps. With competitive prices and a commitment to
+    delivering messages promptly and reliably, Evoton is your trusted partner for bulk SMS in Kenya. Explore our services
+    today and take your communication to new heights.')
+@section('page_keywords',
+    'Bulk SMS provider Kenya,
+    SMS gateway Kenya,
+    Bulk SMS service Kenya,
+    Cheap SMS provider in Kenya,
+    SMS API Kenya,
+    Bulk SMS Kenya prices,
+    Reliable SMS provider in Kenya,
+    Best SMS gateway Kenya,
+    Bulk SMS platform Kenya,
+    Affordable SMS service in Kenya,
+    SMS marketing Kenya,
+    Bulk SMS solutions Kenya,
+    SMS reseller Kenya,
+    SMS campaign Kenya,
+    Bulk SMS API provider Kenya, bulk SMS Kenya,
+    cheapest bulk SMS Kenya,
+    best bulk SMS Kenya,
+    reliable bulk SMS Kenya,
+    affordable bulk SMS Kenya,
+    SMS gateway Kenya,
+    SMS API Kenya,
+    SMS marketing Kenya,
+    SMS sender ID Kenya,
+    SMS delivery reports Kenya,')
 @section('contents')
 
     <!--page header section start-->
@@ -7,8 +40,8 @@
         style="background: url('{{ asset('assets/img/page-header-bg.svg') }}')no-repeat bottom left">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-md-12">
-                    <h3 class="display-5 fw-bold">Reach, Engage, Succeed with Evoton's Powerful Bulk SMS Solutions</h3>
+                <div class="col-lg-8 col-md-12 mt-5">
+                    <h3 class="display-5 fw-bold">Powerful Bulk SMS Kenya</h3>
                     <p class="lead">Maximize Your Marketing Efforts and Connect with Your Audience Like Never Before</p>
                 </div>
                 <div class="action-btn mt-5 align-items-center d-block d-sm-flex d-lg-flex d-md-flex">
@@ -30,8 +63,10 @@
                         <h4 class="h5 text-primary">Introduction</h4>
                         <h2>Boost Your Business with Bulk SMS Solutions from Evoton</h2>
                         <p>Take advantage of our unbeatable prices and features for your SMS campaigns. With Evoton, you can
-                            enjoy a one-time investment of only KSh 7,500 for a sender ID, and every SMS at a flat rate of
-                            KSh 0.40 across all networks. No minimum purchase required, and no credit expiry, giving you
+                            enjoy a one-time investment of only <strong>KSh 7,500</strong> for a sender ID, and every SMS at
+                            a flat rate of
+                            <strong>KSh 0.40</strong> across all networks. No minimum purchase required, and no credit
+                            expiry, giving you
                             complete flexibility and control.
                         </p>
                     </div>
@@ -59,8 +94,9 @@
                             </div>
                             <div class="icon-content">
                                 <span class="text-primary h6">Section 2</span>
-                                <h3 class="h5 mb-2">Seamless Integration</h3>
-                                <p> Integrate Evoton's powerful bulk SMS solution seamlessly into your existing systems.
+                                <h3 class="h5 mb-2">Free Bulk Sms Api</h3>
+                                <p> Integrate Evoton's powerful bulk SMS solution seamlessly into your existing systems
+                                    using our easy API.
                                     Whether you use CRM software, e-commerce platforms, or other business tools, Evoton
                                     offers easy integration to streamline your communication efforts.
                                 </p>

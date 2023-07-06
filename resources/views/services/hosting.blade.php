@@ -7,7 +7,7 @@
         style="background: url('{{ asset('assets/img/page-header-bg.svg') }}')no-repeat bottom left">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-md-12">
+                <div class="col-lg-8 col-md-12 mt-5">
                     <h3 class="display-5 fw-bold">Reliable and Affordable Web Hosting at Evoton</h3>
                     <p class="lead">Affordable Web Hosting Solutions at Evoton: Starting from Just Ksh 2,500 /Year</p>
                 </div>

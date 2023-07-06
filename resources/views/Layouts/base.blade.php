@@ -20,6 +20,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!--meta-->
+    <meta name="description" content="@yield('page_description')">
+    <meta name="keywords" content="@yield('page_keywords')">
+    <meta name="description"
+        content="Transforming Digital Experiences: Evoton - Your Leading Software, Web, and Mobile App Development, Hosting, and Bulk SMS Partner in Africa">
+    <meta name="author" content="Evoton">
+
     <!--twitter og-->
     <meta name="twitter:site" content="@evotonsoftware">
     <meta name="twitter:creator" content="@evotonsoftware">
@@ -40,10 +47,7 @@
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="600">
 
-    <!--meta-->
-    <meta name="description"
-        content="Transforming Digital Experiences: Evoton - Your Leading Software, Web, and Mobile App Development, Hosting, and Bulk SMS Partner in Africa">
-    <meta name="author" content="Evoton">
+
 
     <!--favicon icon-->
     <link rel="icon" href="{{ asset('assets/img/evoton_logo1.webp') }}" type="image/png" sizes="16x16">
@@ -115,7 +119,8 @@
                     <a href="index.html" class="d-flex align-items-center mb-md-0 text-decoration-none">
                         <img src="{{ asset('assets/img/logo_plain.png') }}" alt="logo" class="img-fluid ps-2" />
                     </a>
-                    <button type="button" class="close-btn text-danger" data-bs-dismiss="offcanvas" aria-label="Close">
+                    <button type="button" class="close-btn text-danger" data-bs-dismiss="offcanvas"
+                        aria-label="Close">
                         <i class="far fa-close"></i>
                     </button>
                 </div>

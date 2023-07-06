@@ -7,7 +7,7 @@
         style="background: url('{{ asset('assets/img/page-header-bg.svg') }}')no-repeat bottom left">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-md-12">
+                <div class="col-lg-8 col-md-12 mt-5">
                     <h1 class="display-5 fw-bold"> Evoton Website Development <br> Boost Your Online Presence</h1>
                     <p class="lead">Empowering You to Create Stunning Websites That Captivate Your Audience.</p>
                 </div>

@@ -7,7 +7,7 @@
         style="background: url('{{ asset('assets/img/page-header-bg.svg') }}')no-repeat bottom left">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-md-12">
+                <div class="col-lg-8 col-md-12 mt-5">
                     <h1 class="display-5 fw-bold">We are Development Experts</h1>
                     <p class="lead">Seamlessly actualize client-based users after out-of-the-box value. Globally embrace
                         strategic data through frictionless expertise.</p>
